@@ -4,7 +4,7 @@ import like from "../Assests/like.png"
 function BlogPost({title,content,date,likes,handleLike,id}) {
   
 return(
-  <div className="group mt-4 bg-white/10 backdrop-blur-lg border border-white/20 rounded-2xl p-6 shadow-lg flex justify-between items-center transition-transform duration-150 ease-out hover:-translate-y-1 hover:shadow-xl">
+  <div className="group mt-4 bg-white/10 backdrop-blur-lg border border-white/20 rounded-2xl p-6 shadow-lg  md:flex justify-between items-center transition-transform duration-150 ease-out hover:-translate-y-1 hover:shadow-xl">
 
   <div className="flex-1">
     <h1 className="text-xl md:text-2xl font-semibold text-white group-hover:text-orange-400 transition-colors duration-150">
@@ -19,7 +19,7 @@ return(
     </p>
   </div>
 
-  <div className="flex items-center gap-3 ml-6">
+  <div className="flex items-center gap-3 mt-4  md:ml-6 md:mt-0">
 
     <img
       src={like}
