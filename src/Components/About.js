@@ -68,7 +68,7 @@ export default function AboutCreative() {
   return (
     <section className="relative min-h-screen bg-gradient-to-br from-purple-50 via-pink-50 to-white text-gray-800 overflow-hidden px-6 md:px-16 py-20" id="about">
 
-      {/* background soft blobs */}
+      
       <motion.div
         animate={{ scale: [1, 1.2, 1], opacity: [0.2, 0.4, 0.2] }}
         transition={{ duration: 8, repeat: Infinity }}
