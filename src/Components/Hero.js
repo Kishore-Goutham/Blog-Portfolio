@@ -1,6 +1,6 @@
 import React from "react";
 import { motion } from "framer-motion";
-import profile from "../Assests/blog.png";
+import profile from "../Assests/profile.jpg";
 import resume from "../Assests/resume.pdf"
 
 function Hero() {
